@@ -2,10 +2,9 @@ services:
   - type: web
     name: mediamtx
     env: docker
-    plan: free
     dockerfilePath: ./Dockerfile
     autoDeploy: false
     ports:
-      - 10000  # RTMP ingest
-      - 8888   # HLS
-      - 8889   # WebRTC
+      - 1935   # RTMP ingest
+      - 8888   # HLS streaming
+      - 8889   # WebRTC streaming
