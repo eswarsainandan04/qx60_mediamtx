@@ -20,6 +20,7 @@ authInternalUsers:
         path:
       - action: playback
         path:
+
   - user: any
     pass:
     ips: ['127.0.0.1', '::1']
